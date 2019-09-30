@@ -1,4 +1,4 @@
-
+//Velasco Torres Patricia Jazmín
 #include <stdio.h>
 using namespace std; 
 double CalculaFila(int n[]);
@@ -18,7 +18,7 @@ int main()
 	totpag = CalculaPag(fila,registros); 
 	totbase = totpag*paginas;
 	
-	printf("Calcula el tama�o de una base de datos \n\n");
+	printf("Calcula el tamaño de una base de datos \n\n");
 	printf("El espacio requerido para una fila es de %.0f bytes \n\n",fila); 
 	printf("En cada pagina hay %d registros, entonces en una pagina se emplean %.0f bytes \n\n", registros, totpag); 
 	printf("En total son %d paginas en la Base de Datos, por tanto, la Base de Datos ocupa \n en total %.1f bytes de almacenamiento", paginas, totbase); 
